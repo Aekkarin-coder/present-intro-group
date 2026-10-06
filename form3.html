@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>สมัครเรียน</title>
+</head>
+<body>
+    <header>
+        <div class="HItem1">
+            <img src="image/kmutnb.png" alt="KMUTNB">
+        </div>
+        <div class="HItem2">
+            <img src="image/R.png" alt="logo">
+        </div>
+        <nav class="HItem3">
+            <a href="index.html">หน้าแรก</a>
+            <a href="form1.html">สมัครเรียน</a>
+            <a href="contact.html">ติดต่อเรา</a>
+        </nav>
+        <div class="HItem4">
+            <p class="p1">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</p>
+            <p class="p2">KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK</p>
+        </div>
+    </header>
+    <div class="number">
+        <div class="number1">1</div>&rarr;
+        <div class="number2">2</div>&rarr;
+        <div class="number3" style="background: orange; color: white;">3</div>&rarr;
+        <div class="number4">4</div>
+    </div>
+    <main>
+        <form>
+            <section class="form1">
+                <div class="form1i">
+                    <h3 class="h3f">ขั้นตอนที่ 3 : รายละเอียดการสมัคร</h3>
+                </div>
+                <div class="inputtext">
+                    <label for="how">โครงการ<br></label>
+                    <select name="how" id="how">
+                        <option value="">เลือกโครงการ</option>
+                        <option value="">เรียนดีมีความสามารถ</option>
+                        <option value="">เด็กในพื้นที่</option>
+                        <option value="">กิจกรรมเด่น</option>
+                    </select>
+                </div>                
+                <div class="inputtext">
+                    <label for="round">รอบที่<br></label>
+                    <select name="round" id="round">
+                        <option value="">เลือกรอบที่ต้องการสมัคร</option>
+                        <option value="">Portfolio</option>
+                        <option value="">Qouta</option>
+                        <option value="">Admission</option>
+                    </select>
+                    
+                </div>                
+                <div class="inputtext">
+                    <label for="woot">วุฒิการศึกษา<br></label>
+                    <select name="woot" id="woot">
+                        <option value="">เลือกวุติการศึกษา</option>
+                        <option value="">ม.6</option>
+                        <option value="">ปวส.</option>
+                        <option value="">ปวช.</option>
+                        <option value="">วุฒิจากต่างประเทศ</option>
+                    </select>
+                </div>
+                <div class="inputtext">
+                    <label for="opkmu">วิทยาเขต<br></label>
+                    <select name="kmutnb" id="opkmu" required>
+                        <option value="">เลือกวิทยาเขต</option>
+                        <option value="">กรุงเทพมหานคร</option>
+                        <option value="">วิทยาเขตปราจีนบุรี</option>
+                        <option value="">วิทยาเขตระยอง</option>
+                    </select>
+                </div>
+                <div class="inputtext">
+                    <label for="faculty">คณะ<br></label>
+                    <select name="faculty" id="faculty" required>
+                        <option value="">เลือกคณะ</option>
+                        <option value="">คณะอุตสาหกรรมเกษตรดิจิทัล</option>
+                        <!-- <option value="">คณะวิศวกรรมศาสตร์</option> -->
+                        <option value="">คณะบริหารธุกิจและอุตสาหกรรมบริการ</option>
+                        <option value="">คณะเทคโนโลยีและการจัดการอุตสาหกรรม</option>
+                    </select>
+                </div>
+                <div class="inputtext">
+                    <label for="sakha">สาขา<br></label>
+                    <select name="sakha" id="sakha" required>
+                        <option value="">เลือกสาขา</option>
+                        <optgroup label="คณะเทคโนโลยีและการจัดการอุตสาหกรรม">
+                            <option value="">IT</option>
+                            <option value="">INE</option>
+                            <option value="">ITI</option>
+                            <option value="">ITT</option>
+                        </optgroup>
+                        <optgroup label="คณะอุตสาหกรรมเกษตรดิจิทัล">
+                            <option value="">FAIN</option>
+                            <option value="">FTSCM</option>
+                            <option value="">FSN</option>
+                        </optgroup>
+                        <optgroup label="คณะบริหารธุกิจและอุตสาหกรรมบริการ">
+                            <option value="">TH/THT</option>
+                            <option value="">IBT/IBTT</option>
+                        </optgroup>
+                        
+                    </select>
+                </div>
+                <div class="inputtext">
+                    <label for="gpax">เกรดเฉลี่ย<br></label>
+                    <input id="gpax" type="number" name="grade" max="4" min="0" step="0.01" placeholder="4.00" required>
+                </div>
+                <div class="bnbutton">
+                    <a href="form2.html">ย้อนกลับ</a>
+                    <a href="form4.html">ถัดไป</a>
+                </div>
+            </section>            
+        </form>
+
+    </main>
+    <footer>
+        <div class="footers">
+            <div class="footi">
+                <p>ลิงค์ที่เกี่ยวข้อง</p>
+                <a href="https://www.kmutnb.ac.th/">> มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</a>
+                <a href="https://reg3.kmutnb.ac.th/registrar/home">> ชำระเงิน / ขึ้นทะเบียนนักศึกษาใหม่</a>
+                <a href="https://acdserv.kmutnb.ac.th/">> กองบริการการศึกษา</a>
+                <a href="https://sa.op.kmutnb.ac.th/">> กองกิจการนักศึกษา</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSddWJLazUES1HnY3vQAwi4u7KqOIA3E1HjugbdX1mN92y0lDQ/viewform">> แบบประเมินความพึงพอใจ</a>
+            </div>
+            <div class="footi">
+                <p>กลุ่มงานรับเข้าศึกษา กองบริการการศึกษา สำนักงานอธิบดีชั้น 2 อาคาร TGGS มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ 1518</p>
+                <p>ถนนประชาราษฎร์ 1 แขวงวงศ์สว่าง เขตบางซื่อ กรุงเทพ 10800</p>
+                <p>+66 2 555-2000 ต่อ 1626,1627</p>
+                <p>+66 2 555-2171</p>
+            </div>
+            <div class="footi">
+                <p>facebook</p><a class="fac" href="https://www.facebook.com/admission.kmutnb/directory_contact_info">F</a>
+            </div>
+            <div class="copyf">
+                <p>&copy;2026 Aekkarin and Kanokrat Homework.ALL Rights Reserved.
+            </div>
+        </div>
+        </p>
+    </footer>
+</body>
+</html>
